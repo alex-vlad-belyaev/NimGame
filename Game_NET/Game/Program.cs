@@ -20,7 +20,7 @@ switch (modeNumberInt)
     case 2:
         mode = GameModes.ManVsProgram;
         break;
-    case 3:hfkiy tdreyjtrjy
+    case 3:
         mode = GameModes.ProgramVsProgram;
         break;
     default:
