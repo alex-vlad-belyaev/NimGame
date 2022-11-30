@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameApp", "Game\GameApp.csproj", "{46CB5F20-193D-49F4-88B1-68C68B88CF7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA74399C-6758-46FE-BDF9-594B2D13F6DF} = {BA74399C-6758-46FE-BDF9-594B2D13F6DF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BundlesEngine", "BundlesEngine\BundlesEngine.csproj", "{038449DB-2E2E-4EBB-B763-0E843D9300FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BundlesEngine", "BundlesEngine\BundlesEngine.csproj", "{038449DB-2E2E-4EBB-B763-0E843D9300FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameData", "GameData\GameData.csproj", "{BA74399C-6758-46FE-BDF9-594B2D13F6DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{038449DB-2E2E-4EBB-B763-0E843D9300FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{038449DB-2E2E-4EBB-B763-0E843D9300FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{038449DB-2E2E-4EBB-B763-0E843D9300FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA74399C-6758-46FE-BDF9-594B2D13F6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA74399C-6758-46FE-BDF9-594B2D13F6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA74399C-6758-46FE-BDF9-594B2D13F6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA74399C-6758-46FE-BDF9-594B2D13F6DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
